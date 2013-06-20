@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "XML::Atom::Server for PSGI",
    "author" : [
       "Daisuke Maki <lestrrat+github@gmail.com>"
    ],
@@ -58,7 +58,7 @@
    "provides" : {
       "XML::Atom::Server::PSGI" : {
          "file" : "lib/XML/Atom/Server/PSGI.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -72,5 +72,5 @@
          "web" : "https://github.com/lestrrat/p5-XML-Atom-Server-PSGI"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
