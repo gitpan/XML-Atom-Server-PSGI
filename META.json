@@ -58,7 +58,7 @@
    "provides" : {
       "XML::Atom::Server::PSGI" : {
          "file" : "lib/XML/Atom/Server/PSGI.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -72,5 +72,5 @@
          "web" : "https://github.com/lestrrat/p5-XML-Atom-Server-PSGI"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }

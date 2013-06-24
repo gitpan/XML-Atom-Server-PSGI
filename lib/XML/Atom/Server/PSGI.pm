@@ -16,7 +16,7 @@ use constant NS_WSSE => 'http://schemas.xmlsoap.org/ws/2002/07/secext';
 use constant NS_WSU => 'http://schemas.xmlsoap.org/ws/2002/07/utility';
 
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 sub psgi_app {
     my $self = shift;
@@ -113,6 +113,11 @@ sub request_param {
 
 sub request_params {
     return $_[0]->req->env->{'xml.atom.server.request_params'};
+}
+
+# for compat
+sub request_content {
+    shift->req->content;
 }
 
 # for compat
