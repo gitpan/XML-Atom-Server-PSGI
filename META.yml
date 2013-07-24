@@ -29,15 +29,17 @@ no_index:
 provides:
   XML::Atom::Server::PSGI:
     file: lib/XML/Atom/Server/PSGI.pm
-    version: 0.03
+    version: 0.04
 requires:
+  Class::Accessor::Lite: 0
   Digest::SHA1: 0
   MIME::Base64: 0
   Plack: 1.0024
+  Scope::Guard: 0
   XML::Atom: 0.41
   perl: 5.008001
 resources:
   bugtracker: https://github.com/lestrrat/p5-XML-Atom-Server-PSGI/issues
   homepage: https://github.com/lestrrat/p5-XML-Atom-Server-PSGI
   repository: git://github.com/lestrrat/p5-XML-Atom-Server-PSGI.git
-version: 0.03
+version: 0.04
